@@ -1,0 +1,9 @@
+name: myenv2
+channels:
+  - defaults
+dependencies:
+   - python=3.10
+  - pip
+  - sklearn=1.4.2
+  #- tensorflow==2.10
+  # Add other dependencies as needed
