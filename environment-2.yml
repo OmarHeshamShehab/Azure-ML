@@ -2,8 +2,9 @@ name: myenv2
 channels:
   - defaults
 dependencies:
-   - python=3.10
+   - python=3.8
   - pip
-  - sklearn=1.4.2
+  - sklearn=1.1
+  - numpy = 1.22
   #- tensorflow==2.10
   # Add other dependencies as needed
