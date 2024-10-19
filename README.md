@@ -11,7 +11,6 @@ This project contains three Jupyter notebooks that demonstrate how to use Azure 
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
@@ -102,10 +101,6 @@ Contributions are welcome! Please fork this repository and submit a pull request
     git push origin feature-branch
     ```
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
