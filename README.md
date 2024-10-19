@@ -5,6 +5,9 @@ This project contains three Jupyter notebooks that demonstrate how to use Azure 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Notebooks Description](#notebooks-description)
+  - [1. test.ipynb](#1-testipynb)
+  - [2. Celsius-Fahrenheit.ipynb](#2-celsius-fahrenheitipynb)
+  - [3. L-R.ipynb](#3-l-ripynb)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -17,21 +20,21 @@ The purpose of this project is to demonstrate how to use Azure Machine Learning 
 
 ## Notebooks Description
 
-### 1. `test.ipynb`
+### 1. test.ipynb
    - **Description**: This notebook sets up an Azure Machine Learning workspace, defines an environment with the necessary dependencies (`scikit-learn`), and trains a linear regression model to convert Celsius to Fahrenheit. The trained model is saved as `model.pkl` and the experiment is submitted to Azure for execution.
    - **Key Features**:
      - Azure ML workspace setup.
      - Linear regression for temperature conversion.
      - Model is saved using `joblib`.
 
-### 2. `Celsius-Fahrenheit.ipynb`
+### 2. Celsius-Fahrenheit.ipynb
    - **Description**: This notebook also trains a linear regression model for Celsius to Fahrenheit conversion. It saves the trained model as `model.h5`, likely using TensorFlow or Keras. The notebook includes steps for setting up and submitting the experiment to Azure's cloud infrastructure.
    - **Key Features**:
      - Linear regression for temperature conversion.
      - Model is saved using `model.h5`.
      - Azure ML workspace setup and experiment submission.
 
-### 3. `L-R.ipynb`
+### 3. L-R.ipynb
    - **Description**: This notebook follows the same pattern as the others, focusing on training a linear regression model for temperature conversion. It uses Azure Machine Learning to submit the experiment, with the environment and dependencies handled via `Conda`.
    - **Key Features**:
      - Linear regression for temperature conversion.
@@ -81,7 +84,32 @@ To run the notebooks in this project, you'll need the following:
 
 3. Ensure your Azure credentials are correctly configured in each notebook.
 
-## The project relies on the following libraries:
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request.
+
+1. Fork the repo.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+4. Push the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to Azure Machine Learning for providing cloud resources and tools for this project. Additionally, the project relies on the following libraries:
 - `scikit-learn`
 - `joblib`
 - `Azure ML SDK`
